@@ -1,12 +1,10 @@
-[gd_scene format=4]
+[gd_scene format=4 uid="uid://bh5tjy8hc8qgy"]
 
-[ext_resource type="Script" path="res://scripts/room.gd" id="1_room"]
-[ext_resource type="TileSet" path="res://assets/tiles/world.tres" id="2_wftkx"]
-[ext_resource type="Texture2D" path="res://forest-nature-fantasy-tileset-free/Fantasy Swamp Forest/Free/Terrain_and_Props.png" id="3_7q4ik"]
+[ext_resource type="Script" uid="uid://lewylvo8wjaj" path="res://scripts/room.gd" id="1_room"]
+[ext_resource type="TileSet" uid="uid://qbgqf8e2huts" path="res://assets/tiles/world.tres" id="2_wftkx"]
+[ext_resource type="Texture2D" uid="uid://c2iytwf8gskjw" path="res://forest-nature-fantasy-tileset-free/Fantasy Swamp Forest/Free/Terrain_and_Props.png" id="3_7q4ik"]
 [ext_resource type="PackedScene" path="res://scenes/props/idol.tscn" id="4_ag0mg"]
-[ext_resource type="Script" path="res://scripts/idol.gd" id="5_sc7d5"]
 [ext_resource type="PackedScene" path="res://scenes/props/slime.tscn" id="6_t0lxa"]
-[ext_resource type="Script" path="res://scripts/slime.gd" id="7_stt1l"]
 
 [node name="P18PrimerSlime" type="Node2D" unique_id=1496895369]
 script = ExtResource("1_room")
@@ -44,19 +42,17 @@ tile_set = ExtResource("2_wftkx")
 tile_set = ExtResource("2_wftkx")
 
 [node name="Rims" type="TileMapLayer" parent="." unique_id=346653631]
-tile_map_data = PackedByteArray("AAAAAAEAAAAGAAcAAAABAAEAAAAHAAcAAAACAAEAAAAIAAcAAAADAAEAAAAGAAcAAAAEAAEAAAAHAAcAAAAFAAEAAAAIAAcAAAAGAAEAAAAGAAcAAAAHAAEAAAAHAAcAAAAIAAEAAAAIAAcAAAAJAAEAAAAGAAcAAAAKAAEAAAAHAAcAAAALAAEAAAAIAAcAAAAMAAEAAAAGAAcAAAANAAEAAAAHAAcAAAAOAAEAAAAIAAcAAAAPAAEAAAAGAAcAAAAQAAEAAAAHAAcAAAARAAEAAAAIAAcAAAASAAEAAAAGAAcAAAATAAEAAAAHAAcAAAAUAAEAAAAIAAcAAAAVAAEAAAAEAAQAAAAVAAIAAAAEAAMAAAAVAAMAAAAEAAQAAAAEAAQAAAAKAAIAAAAVAAQAAAAEAAMAAAAEAAUAAAAKAAQAAAAVAAUAAAAEAAQAAAAEAAYAAAAKAAQAAAAVAAYAAAAEAAMAAAAEAAcAAAAKAAQAAAAVAAcAAAAEAAQAAAAEAAgAAAAKAAQAAAAVAAgAAAAEAAMAAAAEAAkAAAAKAAQAAAAVAAkAAAAEAAQAAAAEAAoAAAAKAAQAAAAVAAoAAAAEAAMAAAAEAAsAAAAKAAQAAAAVAAsAAAAEAAQAAAAEAAwAAAAKAAQAAAAVAAwAAAAEAAMAAAAEAA0AAAAKAAQAAAAVAA0AAAAEAAQAAAAEAA4AAAAKAAQAAAAVAA4AAAAEAAMAAAAEAA8AAAAKAAQAAAAVAA8AAAAEAAQAAAAEABAAAAAKAAQAAAAVABAAAAAEAAYAAAAWABEAAAAFAAcAAAAXABEAAAAIAAcAAAAYABEAAAAHAAcAAAAZABEAAAAGAAcAAAAaABEAAAAIAAcAAAAbABEAAAAHAAcAAAAcABEAAAAGAAcAAAAdABEAAAAIAAcAAAAeABEAAAAHAAcAAAAfABEAAAAGAAcAAAAgABEAAAAIAAcAAAAhABEAAAAHAAcAAAAiABEAAAAGAAcAAAAjABEAAAAIAAcAAAAkABEAAAAHAAcAAAAlABEAAAAGAAcAAAAmABEAAAAIAAcAAAAnABEAAAAHAAcAAAAEABEAAAAKAAQAAAAEABIAAAAKAAQAAAAEABMAAAAKAAQAAAA=")
+tile_map_data = PackedByteArray("AAAAAAEAAAAGAAcAAAABAAEAAAAHAAcAAAACAAEAAAAIAAcAAAADAAEAAAAGAAcAAAAEAAEAAAAHAAcAAAAFAAEAAAAIAAcAAAAGAAEAAAAGAAcAAAAHAAEAAAAHAAcAAAAIAAEAAAAIAAcAAAAJAAEAAAAGAAcAAAAKAAEAAAAHAAcAAAALAAEAAAAIAAcAAAAMAAEAAAAGAAcAAAANAAEAAAAHAAcAAAAOAAEAAAAIAAcAAAAPAAEAAAAGAAcAAAAQAAEAAAAHAAcAAAARAAEAAAAIAAcAAAASAAEAAAAGAAcAAAATAAEAAAAHAAcAAAAUAAEAAAAIAAcAAAAWABEAAAAFAAcAAAAXABEAAAAIAAcAAAAYABEAAAAHAAcAAAAZABEAAAAGAAcAAAAaABEAAAAIAAcAAAAbABEAAAAHAAcAAAAcABEAAAAGAAcAAAAdABEAAAAIAAcAAAAeABEAAAAHAAcAAAAfABEAAAAGAAcAAAAgABEAAAAIAAcAAAAhABEAAAAHAAcAAAAiABEAAAAGAAcAAAAjABEAAAAIAAcAAAAkABEAAAAHAAcAAAAlABEAAAAGAAcAAAAmABEAAAAIAAcAAAAnABEAAAAHAAcAAAA=")
 tile_set = ExtResource("2_wftkx")
 
 [node name="Spawn" type="Marker2D" parent="." unique_id=58107400]
 position = Vector2(40, 64)
 
-[node name="Idol" type="Area2D" parent="." unique_id=195510779 instance=ExtResource("4_ag0mg")]
+[node name="Idol" parent="." unique_id=195510779 instance=ExtResource("4_ag0mg")]
 position = Vector2(136, 320)
-script = ExtResource("5_sc7d5")
 text = "PARRY
 Pulsa A (Y) justo antes de que el escupitajo te toque: rebota hacia el slime.
 Lo que te lanzan, se lo devuelves."
 
-[node name="Slime" type="Area2D" parent="." unique_id=1209674529 instance=ExtResource("6_t0lxa")]
+[node name="Slime" parent="." unique_id=1209674529 instance=ExtResource("6_t0lxa")]
 position = Vector2(536, 320)
-script = ExtResource("7_stt1l")

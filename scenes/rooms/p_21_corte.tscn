@@ -1,12 +1,10 @@
-[gd_scene format=4]
+[gd_scene format=4 uid="uid://dgivfkrgtftiu"]
 
-[ext_resource type="Script" path="res://scripts/room.gd" id="1_room"]
-[ext_resource type="TileSet" path="res://assets/tiles/world.tres" id="2_dgmgp"]
-[ext_resource type="Texture2D" path="res://forest-nature-fantasy-tileset-free/Fantasy Swamp Forest/Free/Terrain_and_Props.png" id="3_caqpf"]
+[ext_resource type="Script" uid="uid://lewylvo8wjaj" path="res://scripts/room.gd" id="1_room"]
+[ext_resource type="TileSet" uid="uid://qbgqf8e2huts" path="res://assets/tiles/world.tres" id="2_dgmgp"]
+[ext_resource type="Texture2D" uid="uid://c2iytwf8gskjw" path="res://forest-nature-fantasy-tileset-free/Fantasy Swamp Forest/Free/Terrain_and_Props.png" id="3_caqpf"]
 [ext_resource type="PackedScene" path="res://scenes/props/slime.tscn" id="4_ojqij"]
-[ext_resource type="Script" path="res://scripts/slime.gd" id="5_b6xr7"]
 [ext_resource type="PackedScene" path="res://scenes/props/idol.tscn" id="6_o5xib"]
-[ext_resource type="Script" path="res://scripts/idol.gd" id="7_78edj"]
 
 [node name="P21Corte" type="Node2D" unique_id=1272990726]
 script = ExtResource("1_room")
@@ -36,29 +34,25 @@ tile_set = ExtResource("2_dgmgp")
 tile_set = ExtResource("2_dgmgp")
 
 [node name="Rims" type="TileMapLayer" parent="." unique_id=533863076]
-tile_map_data = PackedByteArray("AAABAAEAAAAKAAQAAAACAAEAAAAIAAcAAAADAAEAAAAGAAcAAAAEAAEAAAAHAAcAAAAFAAEAAAAIAAcAAAAGAAEAAAAGAAcAAAAHAAEAAAAHAAcAAAAIAAEAAAAIAAcAAAAJAAEAAAAGAAcAAAAKAAEAAAAHAAcAAAALAAEAAAAIAAcAAAAMAAEAAAAGAAcAAAANAAEAAAAHAAcAAAAOAAEAAAAIAAcAAAAPAAEAAAAGAAcAAAAQAAEAAAAHAAcAAAARAAEAAAAIAAcAAAASAAEAAAAGAAcAAAATAAEAAAAHAAcAAAAUAAEAAAAIAAcAAAAVAAEAAAAGAAcAAAAWAAEAAAAHAAcAAAAXAAEAAAAIAAcAAAAYAAEAAAAGAAcAAAAZAAEAAAAHAAcAAAAaAAEAAAAIAAcAAAAbAAEAAAAGAAcAAAAcAAEAAAAHAAcAAAAdAAEAAAAIAAcAAAAeAAEAAAAGAAcAAAAfAAEAAAAHAAcAAAAgAAEAAAAIAAcAAAAhAAEAAAAGAAcAAAAiAAEAAAAHAAcAAAAjAAEAAAAIAAcAAAAkAAEAAAAGAAcAAAAlAAEAAAAHAAcAAAAmAAEAAAAEAAQAAAABAAIAAAAKAAYAAAAAAAMAAAAJAAcAAAAmAAIAAAAEAAQAAAAmAAMAAAAEAAQAAAAmAAQAAAAEAAQAAAAmAAUAAAAEAAQAAAAmAAYAAAAEAAQAAAAmAAcAAAAEAAQAAAAEAAgAAAAKAAIAAAAmAAgAAAAEAAQAAAAEAAkAAAAKAAQAAAAmAAkAAAAEAAQAAAAEAAoAAAAKAAQAAAAmAAoAAAAEAAQAAAAEAAsAAAAKAAQAAAAmAAsAAAAEAAQAAAAEAAwAAAAKAAQAAAAmAAwAAAAEAAQAAAAEAA0AAAAKAAQAAAAmAA0AAAAEAAQAAAAEAA4AAAAKAAQAAAATAA4AAAAEAAIAAAAUAA8AAAAFAAcAAAAVAA8AAAAIAAcAAAAWAA8AAAAIAAcAAAAXAA8AAAAIAAcAAAAZAA4AAAAKAAIAAAAYAA8AAAAJAAcAAAAmAA4AAAAEAAYAAAAnAA8AAAAFAAcAAAAEAA8AAAAKAAQAAAAEABAAAAAKAAQAAAAEABEAAAAKAAQAAAAEABIAAAAKAAQAAAAEABMAAAAKAAQAAAA=")
+tile_map_data = PackedByteArray("AAABAAEAAAAKAAQAAAACAAEAAAAIAAcAAAADAAEAAAAGAAcAAAAEAAEAAAAHAAcAAAAFAAEAAAAIAAcAAAAGAAEAAAAGAAcAAAAHAAEAAAAHAAcAAAAIAAEAAAAIAAcAAAAJAAEAAAAGAAcAAAAKAAEAAAAHAAcAAAALAAEAAAAIAAcAAAAMAAEAAAAGAAcAAAANAAEAAAAHAAcAAAAOAAEAAAAIAAcAAAAPAAEAAAAGAAcAAAAQAAEAAAAHAAcAAAARAAEAAAAIAAcAAAASAAEAAAAGAAcAAAATAAEAAAAHAAcAAAAUAAEAAAAIAAcAAAAVAAEAAAAGAAcAAAAWAAEAAAAHAAcAAAAXAAEAAAAIAAcAAAAYAAEAAAAGAAcAAAAZAAEAAAAHAAcAAAAaAAEAAAAIAAcAAAAbAAEAAAAGAAcAAAAcAAEAAAAHAAcAAAAdAAEAAAAIAAcAAAAeAAEAAAAGAAcAAAAfAAEAAAAHAAcAAAAgAAEAAAAIAAcAAAAhAAEAAAAGAAcAAAAiAAEAAAAHAAcAAAAjAAEAAAAIAAcAAAAkAAEAAAAGAAcAAAAlAAEAAAAHAAcAAAAmAAEAAAAEAAQAAAABAAIAAAAKAAYAAAAAAAMAAAAJAAcAAAAmAAIAAAAEAAQAAAAmAAMAAAAEAAQAAAAmAAQAAAAEAAQAAAAmAAUAAAAEAAQAAAAmAAYAAAAEAAQAAAAmAAcAAAAEAAQAAAAmAAgAAAAEAAQAAAAmAAkAAAAEAAQAAAAmAAoAAAAEAAQAAAAmAAsAAAAEAAQAAAAmAAwAAAAEAAQAAAAmAA0AAAAEAAQAAAAUAA8AAAAFAAcAAAAVAA8AAAAIAAcAAAAWAA8AAAAIAAcAAAAXAA8AAAAIAAcAAAAYAA8AAAAJAAcAAAAmAA4AAAAEAAYAAAAnAA8AAAAFAAcAAAA=")
 tile_set = ExtResource("2_dgmgp")
 
 [node name="Spawn" type="Marker2D" parent="." unique_id=469085384]
 position = Vector2(40, 128)
 
-[node name="Slime" type="Area2D" parent="." unique_id=845759105 instance=ExtResource("4_ojqij")]
+[node name="Slime" parent="." unique_id=845759105 instance=ExtResource("4_ojqij")]
 position = Vector2(360, 224)
-script = ExtResource("5_b6xr7")
 kind = 3
 
-[node name="Slime2" type="Area2D" parent="." unique_id=782256371 instance=ExtResource("4_ojqij")]
+[node name="Slime2" parent="." unique_id=782256371 instance=ExtResource("4_ojqij")]
 position = Vector2(232, 320)
-script = ExtResource("5_b6xr7")
 kind = 1
 
-[node name="Slime3" type="Area2D" parent="." unique_id=44304738 instance=ExtResource("4_ojqij")]
+[node name="Slime3" parent="." unique_id=44304738 instance=ExtResource("4_ojqij")]
 position = Vector2(504, 320)
-script = ExtResource("5_b6xr7")
 kind = 2
 
-[node name="Idol" type="Area2D" parent="." unique_id=436936287 instance=ExtResource("6_o5xib")]
+[node name="Idol" parent="." unique_id=436936287 instance=ExtResource("6_o5xib")]
 position = Vector2(584, 320)
-script = ExtResource("7_78edj")
 text = "Te escupieron, y lo devolviste. Caíste, y volviste.
 Arriba esperan las nubes del Olimpo, y Melina."
