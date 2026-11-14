@@ -1,0 +1,212 @@
+# Godot cache and exports
+.godot/
+build/
+tests/shots/
+*.tmp
+
+# Third-party packs: only what the game uses goes in the repo
+FreeKnight_v1/
+forest-nature-fantasy-tileset-free/Fantasy Swamp Forest/Free/Mockup.png*
+forest-nature-fantasy-tileset-free/Fantasy Swamp Forest/Free/Terrain-and-Props-OLD.png*
+Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/GIF/
+Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/spritesheet/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Explosions/epic_explosion_001/epic_explosion_001_large_orange/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Explosions/epic_explosion_001/epic_explosion_001_small_orange/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Explosions/epic_explosion_002/epic_explosion_002_large_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Explosions/epic_explosion_002/epic_explosion_002_small_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Explosions/stylized_explosion_001/stylized_explosion_001_large_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Explosions/stylized_explosion_001/stylized_explosion_001_small_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Explosions/stylized_explosion_002/stylized_explosion_002_large_violet/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Explosions/stylized_explosion_002/stylized_explosion_002_small_violet/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Explosions/stylized_explosion_003/stylized_explosion_003_large_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Explosions/stylized_explosion_003/stylized_explosion_003_small_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Explosions/symmetrical_explosion_001/symmetrical_explosion_001_large_orange/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Explosions/symmetrical_explosion_002/symmetrical_explosion_002_large_orange/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Explosions/symmetrical_explosion_002/symmetrical_explosion_002_small_orange/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Explosions/symmetrical_explosion_004/symmetrical_explosion_004_large_orange/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Explosions/symmetrical_explosion_004/symmetrical_explosion_004_small_orange/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Fantasy Spells/spell_absorb_001/spell_absorb_001_large_violet/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Fantasy Spells/spell_absorb_001/spell_absorb_001_small_violet/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Fantasy Spells/spell_attack_up_001/spell_attack_up_001_large_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Fantasy Spells/spell_attack_up_001/spell_attack_up_001_small_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Fantasy Spells/spell_death_001/spell_death_001_large_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Fantasy Spells/spell_death_001/spell_death_001_small_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Fantasy Spells/spell_death_002/spell_death_002_large_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Fantasy Spells/spell_death_002/spell_death_002_small_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Fantasy Spells/spell_defense_up_001/spell_defense_up_001_large_blue/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Fantasy Spells/spell_defense_up_001/spell_defense_up_001_small_blue/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Fantasy Spells/spell_haste_001/spell_haste_001_large_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Fantasy Spells/spell_heal_001/spell_heal_001_large_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Fantasy Spells/spell_poison_001/spell_poison_001_large_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Fantasy Spells/spell_poison_001/spell_poison_001_small_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Fantasy Spells/status_poison_001/status_poison_001_large_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Fantasy Spells/status_poison_001/status_poison_001_small_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Fantasy Spells/status_sparkling_001/status_sparkling_001_large_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Fire/fire_looping_003A/fire_looping_003A_large_orange/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Fire/fire_looping_003A/fire_looping_003A_small_orange/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Fire/fire_looping_003B/fire_looping_003B_large_orange/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Fire/fire_looping_003B/fire_looping_003B_small_orange/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Fire/fire_looping_004A/fire_looping_004A_large_orange/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Fire/fire_looping_004A/fire_looping_004A_small_orange/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Fire/fire_looping_004B/fire_looping_004B_large_orange/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Fire/fire_looping_004B/fire_looping_004B_small_orange/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Impacts/directional_impact_001/directional_impact_001_large_blue/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Impacts/directional_impact_001/directional_impact_001_small_blue/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Impacts/directional_impact_002/directional_impact_002_large_white/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Impacts/directional_impact_003/directional_impact_003_large_violet/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Impacts/directional_impact_003/directional_impact_003_small_violet/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Impacts/directional_impact_004/directional_impact_004_large_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Impacts/directional_impact_004/directional_impact_004_small_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Impacts/symmetrical_impact_001/symmetrical_impact_001_large_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Impacts/symmetrical_impact_002/symmetrical_impact_002_large_blue/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Impacts/symmetrical_impact_003/symmetrical_impact_003_large_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Impacts/symmetrical_impact_003/symmetrical_impact_003_small_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Impacts/symmetrical_impact_004/symmetrical_impact_004_large_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Impacts/symmetrical_impact_004/symmetrical_impact_004_small_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Impacts/symmetrical_impact_006/symmetrical_impact_006_large_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Impacts/symmetrical_impact_006/symmetrical_impact_006_small_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Lightning/lightning_aura_002/lightning_aura_002_large_blue/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Lightning/lightning_aura_002/lightning_aura_002_small_blue/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Lightning/lightning_burst_001/lightning_burst_001_large_violet/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Lightning/lightning_burst_001/lightning_burst_001_small_violet/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Lightning/lightning_burst_002/lightning_burst_002_large_violet/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Lightning/lightning_burst_002/lightning_burst_002_small_violet/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Lightning/lightning_burst_003/lightning_burst_003_large_violet/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Lightning/lightning_burst_003/lightning_burst_003_small_violet/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Lightning/lightning_strike_001/lightning_strike_001_large_violet/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Lightning/lightning_strike_001/lightning_strike_001_small_violet/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Magic Bursts/directional_bubble_burst_001/directional_bubble_burst_001_large_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Magic Bursts/directional_bubble_burst_001/directional_bubble_burst_001_small_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Magic Bursts/directional_coin_burst_001/directional_coin_burst_001_large_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Magic Bursts/directional_coin_burst_001/directional_coin_burst_001_small_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Magic Bursts/directional_music_burst_001/directional_music_burst_001_large_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Magic Bursts/directional_music_burst_001/directional_music_burst_001_small_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Magic Bursts/directional_music_burst_002/directional_music_burst_002_large_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Magic Bursts/directional_music_burst_002/directional_music_burst_002_small_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Magic Bursts/round_firework_burst_001/round_firework_burst_001_large_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Magic Bursts/round_firework_burst_001/round_firework_burst_001_small_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Magic Bursts/round_firework_burst_002/round_firework_burst_002_large_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Magic Bursts/round_firework_burst_002/round_firework_burst_002_small_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Magic Bursts/round_heart_burst_001/round_heart_burst_001_large_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Magic Bursts/round_heart_burst_001/round_heart_burst_001_small_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Magic Bursts/round_light_burst_001/round_light_burst_001_large_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Magic Bursts/round_sparkle_burst_001/round_sparkle_burst_001_large_blue/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Magic Bursts/round_sparkle_burst_002/round_sparkle_burst_002_large_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Magic Bursts/round_sparkle_burst_002/round_sparkle_burst_002_small_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Magic Bursts/round_sparkle_burst_003/round_sparkle_burst_003_large_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Magic Bursts/round_sparkle_burst_003/round_sparkle_burst_003_small_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Sci-fi/scifi_charge_up_001/scifi_charge_up_001_large_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Sci-fi/scifi_charge_up_001/scifi_charge_up_001_small_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Sci-fi/scifi_heartbeat_fast_001/scifi_heartbeat_fast_001_large_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Sci-fi/scifi_heartbeat_fast_001/scifi_heartbeat_fast_001_small_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Sci-fi/scifi_heartbeat_flatline_001/scifi_heartbeat_flatline_001_large_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Sci-fi/scifi_heartbeat_flatline_001/scifi_heartbeat_flatline_001_small_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Sci-fi/scifi_heartbeat_slow_001/scifi_heartbeat_slow_001_large_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Sci-fi/scifi_heartbeat_slow_001/scifi_heartbeat_slow_001_small_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Sci-fi/scifi_muzzle_flash_001/scifi_muzzle_flash_001_large_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Sci-fi/scifi_muzzle_flash_001/scifi_muzzle_flash_001_small_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Sci-fi/scifi_muzzle_flash_003/scifi_muzzle_flash_003_large_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Sci-fi/scifi_muzzle_flash_003/scifi_muzzle_flash_003_small_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Sci-fi/scifi_spark_burst_001/scifi_spark_burst_001_large_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Sci-fi/scifi_spark_burst_001/scifi_spark_burst_001_small_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Sci-fi/scifi_warp_001/scifi_warp_001_large_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Sci-fi/scifi_warp_001/scifi_warp_001_small_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Sci-fi/scifi_warp_002/scifi_warp_002_large_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Sci-fi/scifi_warp_002/scifi_warp_002_small_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Sci-fi/scifi_warp_003/scifi_warp_003_large_blue/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Sci-fi/scifi_warp_003/scifi_warp_003_small_blue/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Smoke Bursts/directional_smoke_burst_001/directional_smoke_burst_001_large_white/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Smoke Bursts/directional_smoke_burst_001/directional_smoke_burst_001_small_white/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Smoke Bursts/looping_smoke_burst_001/looping_smoke_burst_001_large_gray/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Smoke Bursts/looping_smoke_burst_001/looping_smoke_burst_001_small_gray/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Smoke Bursts/looping_smoke_burst_002/looping_smoke_burst_002_large_gray/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Smoke Bursts/looping_smoke_burst_002/looping_smoke_burst_002_small_gray/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Smoke Bursts/stylized_skull_smoke_burst_001/stylized_skull_smoke_burst_001_large_white/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Smoke Bursts/stylized_skull_smoke_burst_001/stylized_skull_smoke_burst_001_small_white/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Smoke Bursts/symmetrical_smoke_burst_001/symmetrical_smoke_burst_001_large_brown/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Splatters/burst_splatter_001/burst_splatter_001_large_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Splatters/burst_splatter_001/burst_splatter_001_small_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Splatters/burst_splatter_003/burst_splatter_003_large_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Splatters/burst_splatter_003/burst_splatter_003_small_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Splatters/directional_splatter_001/directional_splatter_001_large_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Splatters/directional_splatter_001/directional_splatter_001_small_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Splatters/directional_splatter_003/directional_splatter_003_large_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Splatters/directional_splatter_003/directional_splatter_003_small_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Splatters/directional_splatter_006/directional_splatter_006_large_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Splatters/directional_splatter_006/directional_splatter_006_small_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_alert_001/symbol_alert_001_large_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_alert_001/symbol_alert_001_small_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_alert_002/symbol_alert_002_large_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_alert_002/symbol_alert_002_small_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_alert_text_001/symbol_alert_text_001_large_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_alert_text_001/symbol_alert_text_001_small_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_attack_up_001/symbol_attack_up_001_large_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_attack_up_001/symbol_attack_up_001_small_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_bonus_text_001/symbol_bonus_text_001_large_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_bonus_text_001/symbol_bonus_text_001_small_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_bonus_text_002/symbol_bonus_text_002_large_violet/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_bonus_text_002/symbol_bonus_text_002_small_violet/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_complete_text_001/symbol_complete_text_001_large_blue/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_complete_text_001/symbol_complete_text_001_small_blue/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_cool_text_001/symbol_cool_text_001_large_blue/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_cool_text_001/symbol_cool_text_001_small_blue/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_crown_001/symbol_crown_001_large_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_crown_001/symbol_crown_001_small_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_defense_up_001/symbol_defense_up_001_large_blue/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_defense_up_001/symbol_defense_up_001_small_blue/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_failure_001/symbol_failure_001_large_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_failure_001/symbol_failure_001_small_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_game_over_text_001/symbol_game_over_text_001_large_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_game_over_text_001/symbol_game_over_text_001_small_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_game_over_text_002/symbol_game_over_text_002_large_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_game_over_text_002/symbol_game_over_text_002_small_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_level_up_text_001/symbol_level_up_text_001_large_blue/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_level_up_text_001/symbol_level_up_text_001_small_blue/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_lightbulb_001/symbol_lightbulb_001_large_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_lightbulb_001/symbol_lightbulb_001_small_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_magic_up_001/symbol_magic_up_001_large_violet/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_magic_up_001/symbol_magic_up_001_small_violet/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_place_1st_001/symbol_place_1st_001_large_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_place_1st_001/symbol_place_1st_001_small_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_place_2nd_001/symbol_place_2nd_001_large_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_place_2nd_001/symbol_place_2nd_001_small_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_place_3rd_001/symbol_place_3rd_001_large_orange/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_place_3rd_001/symbol_place_3rd_001_small_orange/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_place_4th_001/symbol_place_4th_001_large_blue/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_place_4th_001/symbol_place_4th_001_small_blue/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_place_5th_001/symbol_place_5th_001_large_violet/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_place_5th_001/symbol_place_5th_001_small_violet/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_place_6th_001/symbol_place_6th_001_large_blue/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_place_6th_001/symbol_place_6th_001_small_blue/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_place_7th_001/symbol_place_7th_001_large_violet/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_place_7th_001/symbol_place_7th_001_small_violet/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_place_8th_001/symbol_place_8th_001_large_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_place_8th_001/symbol_place_8th_001_small_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_question_001/symbol_question_001_large_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_question_001/symbol_question_001_small_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_rank_A_001/symbol_rank_A_001_large_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_rank_A_001/symbol_rank_A_001_small_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_rank_B_001/symbol_rank_B_001_large_orange/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_rank_B_001/symbol_rank_B_001_small_orange/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_rank_C_001/symbol_rank_C_001_large_blue/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_rank_C_001/symbol_rank_C_001_small_blue/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_rank_D_001/symbol_rank_D_001_large_violet/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_rank_D_001/symbol_rank_D_001_small_violet/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_rank_F_001/symbol_rank_F_001_large_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_rank_F_001/symbol_rank_F_001_small_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_rank_S_001/symbol_rank_S_001_large_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_rank_S_001/symbol_rank_S_001_small_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_success_001/symbol_success_001_large_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_success_001/symbol_success_001_small_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_thumbs_down_001/symbol_thumbs_down_001_large_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_thumbs_down_001/symbol_thumbs_down_001_small_red/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_thumbs_up_001/symbol_thumbs_up_001_large_blue/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_thumbs_up_001/symbol_thumbs_up_001_small_blue/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_warning_001/symbol_warning_001_large_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_warning_001/symbol_warning_001_small_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_wow_text_001/symbol_wow_text_001_large_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_wow_text_001/symbol_wow_text_001_small_yellow/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_you_lost_text_001/symbol_you_lost_text_001_large_violet/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_you_lost_text_001/symbol_you_lost_text_001_small_violet/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_you_won_text_001/symbol_you_won_text_001_large_green/
+/Super Pixel Effects Gigapack (Free Version) v3.2.0/Super Pixel Effects Gigapack (Free Version)/PNG/Symbols/symbol_you_won_text_001/symbol_you_won_text_001_small_green/

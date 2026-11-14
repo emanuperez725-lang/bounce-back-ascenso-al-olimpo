@@ -1,0 +1,34 @@
+[gd_scene load_steps=25 format=3]
+
+[ext_resource type="Script" path="res://scripts/game.gd" id="1_game"]
+[ext_resource type="PackedScene" path="res://scenes/player.tscn" id="2_player"]
+[ext_resource type="PackedScene" path="res://scenes/rooms/p_01_pantano.tscn" id="r1"]
+[ext_resource type="PackedScene" path="res://scenes/rooms/p_02_piedras.tscn" id="r2"]
+[ext_resource type="PackedScene" path="res://scenes/rooms/p_03_aguas.tscn" id="r3"]
+[ext_resource type="PackedScene" path="res://scenes/rooms/p_04_muro_musgo.tscn" id="r4"]
+[ext_resource type="PackedScene" path="res://scenes/rooms/p_05_chimenea.tscn" id="r5"]
+[ext_resource type="PackedScene" path="res://scenes/rooms/p_06_santuario.tscn" id="r6"]
+[ext_resource type="PackedScene" path="res://scenes/rooms/p_07_ranas.tscn" id="r7"]
+[ext_resource type="PackedScene" path="res://scenes/rooms/p_08_charcas.tscn" id="r8"]
+[ext_resource type="PackedScene" path="res://scenes/rooms/p_09_puerta.tscn" id="r9"]
+[ext_resource type="PackedScene" path="res://scenes/rooms/p_10_rebote.tscn" id="r10"]
+[ext_resource type="PackedScene" path="res://scenes/rooms/p_11_raices.tscn" id="r11"]
+[ext_resource type="PackedScene" path="res://scenes/rooms/p_12_musgo_alto.tscn" id="r12"]
+[ext_resource type="PackedScene" path="res://scenes/rooms/p_13_pilares.tscn" id="r13"]
+[ext_resource type="PackedScene" path="res://scenes/rooms/p_14_cadena.tscn" id="r14"]
+[ext_resource type="PackedScene" path="res://scenes/rooms/p_15_torre.tscn" id="r15"]
+[ext_resource type="PackedScene" path="res://scenes/rooms/p_16_escalones.tscn" id="r16"]
+[ext_resource type="PackedScene" path="res://scenes/rooms/p_17_salida.tscn" id="r17"]
+[ext_resource type="PackedScene" path="res://scenes/rooms/p_18_primer_slime.tscn" id="r18"]
+[ext_resource type="PackedScene" path="res://scenes/rooms/p_19_charcas_acidas.tscn" id="r19"]
+[ext_resource type="PackedScene" path="res://scenes/rooms/p_20_muro_vigilado.tscn" id="r20"]
+[ext_resource type="PackedScene" path="res://scenes/rooms/p_21_corte.tscn" id="r21"]
+[ext_resource type="PackedScene" path="res://scenes/rooms/p_22_cima.tscn" id="r22"]
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_game")
+rooms = Array[PackedScene]([ExtResource("r1"), ExtResource("r2"), ExtResource("r3"), ExtResource("r4"), ExtResource("r5"), ExtResource("r6"), ExtResource("r7"), ExtResource("r8"), ExtResource("r9"), ExtResource("r10"), ExtResource("r11"), ExtResource("r12"), ExtResource("r13"), ExtResource("r14"), ExtResource("r15"), ExtResource("r16"), ExtResource("r17"), ExtResource("r18"), ExtResource("r19"), ExtResource("r20"), ExtResource("r21"), ExtResource("r22")])
+
+[node name="Player" parent="." instance=ExtResource("2_player")]
+position = Vector2(40, 308)
+dash_unlocked = false

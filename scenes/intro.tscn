@@ -1,0 +1,92 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="Script" path="res://scripts/intro.gd" id="1"]
+[ext_resource type="Texture2D" path="res://forest-nature-fantasy-tileset-free/Fantasy Swamp Forest/Free/BG_2/BG_2.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/sprites/kira_barefoot.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/sprites/apple.png" id="4"]
+[ext_resource type="Texture2D" path="res://assets/sprites/melina.png" id="7"]
+[ext_resource type="Texture2D" path="res://forest-nature-fantasy-tileset-free/Fantasy Swamp Forest/Free/BG_3/BG_3.png" id="6"]
+
+[node name="Intro" type="Node2D"]
+script = ExtResource("1")
+cards = Array[String](["Kira y Melina crecieron a la sombra del Olimpo,
+donde los dioses miran, pero nunca bajan.", "Una mañana, Melina despertó con los pies de piedra.
+La maldición subía, día a día, hacia su corazón.", "El oráculo habló: solo la Manzana de Ambrosía,
+que florece en la cima del Olimpo, podía salvarla.", "Kira subió sin descanso.
+Llegó tan alto que casi pudo tocarla...", "...y cayó. Hasta el fondo del pantano,
+bajo las raíces de la montaña."])
+next_scene = "res://scenes/game.tscn"
+
+[node name="Sky" type="ColorRect" parent="."]
+offset_right = 640.0
+offset_bottom = 360.0
+color = Color(0.839, 0.902, 0.941, 1)
+
+[node name="Far" type="Sprite2D" parent="."]
+position = Vector2(-700, -40)
+texture = ExtResource("6")
+centered = false
+
+[node name="Mid" type="Sprite2D" parent="."]
+position = Vector2(-500, -40)
+texture = ExtResource("2")
+centered = false
+
+[node name="Dim" type="ColorRect" parent="."]
+offset_right = 640.0
+offset_bottom = 360.0
+color = Color(0.11, 0.1, 0.15, 0.25)
+
+[node name="Ground" type="ColorRect" parent="."]
+offset_top = 300.0
+offset_right = 640.0
+offset_bottom = 360.0
+color = Color(0.114, 0.102, 0.149, 1)
+
+[node name="Melina" type="Sprite2D" parent="."]
+position = Vector2(250, 300)
+scale = Vector2(4, 4)
+texture = ExtResource("7")
+centered = false
+offset = Vector2(-8, -16)
+flip_h = true
+hframes = 23
+
+[node name="Kira" type="Sprite2D" parent="."]
+position = Vector2(180, 300)
+scale = Vector2(4, 4)
+texture = ExtResource("3")
+centered = false
+offset = Vector2(-8, -16)
+hframes = 23
+
+[node name="Apple" type="Sprite2D" parent="."]
+position = Vector2(490, 70)
+scale = Vector2(2, 2)
+texture = ExtResource("4")
+
+[node name="Card" type="Label" parent="."]
+offset_left = 60.0
+offset_top = 300.0
+offset_right = 580.0
+offset_bottom = 356.0
+theme_override_font_sizes/font_size = 16
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Title" type="Label" parent="."]
+offset_left = 120.0
+offset_top = 90.0
+offset_right = 520.0
+offset_bottom = 230.0
+theme_override_colors/font_color = Color(0.937, 0.902, 0.835, 1)
+theme_override_colors/font_outline_color = Color(0.05, 0.04, 0.04, 1)
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 32
+text = "BOUNCE BACK
+Ascenso al Olimpo
+
+C (A): empezar"
+horizontal_alignment = 1
+vertical_alignment = 1
