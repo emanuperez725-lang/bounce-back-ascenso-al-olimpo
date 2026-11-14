@@ -1,3 +1,6 @@
+# Note: 
+> Hi, I'm Vicente Guarin, Lead Organizer & Designated PoC of Hack CLub Haven puerto Colombia, and, I want to note: Even tho Claude looks like an author inside the repo, i want to make notice that this was only because the push was made with it due to time constraints and not because active AI use, We were supervizing this team constantly and they were fair and played inside the AI Policy rules
+
 # Bounce Back: Ascenso al Olimpo
 
 Plataformas de precisión hecho en Godot 4.7 para un hackathon con el tema **bounce back**.
