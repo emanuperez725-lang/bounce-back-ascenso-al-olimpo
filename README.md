@@ -1,5 +1,7 @@
 # Note: 
-> Hi, I'm Vicente Guarin, Lead Organizer & Designated PoC of Hack CLub Haven puerto Colombia, and, I want to note: Even tho Claude looks like an author inside the repo, i want to make notice that this was only because the push was made with it due to time constraints and not because active AI use, We were supervizing this team constantly and they were fair and played inside the AI Policy rules
+> Upon closer after-event GitHub revision by our team, we found that this game was vibecoded and violated our stated AI policy for the Game Jam. As such, this team has been inmediately and unappelable disqualified and will not receive prizes even though they finished their shipping. Sorry. Please make sure to follow the rules the next time.
+>
+> -Vicente | Hack Club Haven Puerto Colombia - Lead Organizer
 
 # Bounce Back: Ascenso al Olimpo
 
